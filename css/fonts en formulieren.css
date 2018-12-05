@@ -1,0 +1,118 @@
+* {
+    /*border: dotted 1px black;*/
+}
+
+html {
+    background-color:rgb(252,235,235);
+}
+
+body {
+    margin:0;
+    height:100vh;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:50px auto 70px;
+}
+
+
+navbar {
+    grid-column-start:1;
+    grid-column-end:4;
+    display: flex;
+
+}
+
+#deel1 {
+    display:flex;
+    flex-direction:column;
+
+}
+
+#deel2 {
+  display:flex;
+    flex-direction:column;
+}
+
+div.checkbox {
+    display: inline-block;
+    position: absolute;
+    top: 75px;
+}
+
+.text1b {
+    width:300px;
+    float:right;
+}
+
+div.text {
+    width:425px;
+    padding:10px;
+}
+
+.radio {
+    float:right;
+    position:relative;
+    right:60%;
+}
+
+.date {
+    float: right;
+    position: relative;
+    left: -60%;
+}
+
+div.kleurogen{
+    float:right;
+    position: relative;
+    right:60%;
+}
+
+.kleurogen1b {
+    float:left;
+}
+
+textarea {
+    float: right;
+    position: relative;
+    right:55%;
+    margin-top:10px;
+}
+
+.textarea2 {
+    width: 425px;
+    padding: 10px;
+}
+
+div.checkbox {
+    display: inline-block;
+    position: absolute;
+    top: 75px;
+    right: 700px;
+}
+
+div.checkboxlb {
+    display: inline-block;
+    position: absolute;
+    top: 75px;
+    right:850px;
+}
+
+div.buttons {
+    display: inline-block;
+    position: absolute;
+    top:440px;
+    right:700px;
+}
+
+.geslacht {
+    padding-left:10px;
+
+}
+
+.kleurogen1b {
+    padding-left:10px;
+}
+
+.geboortedatum2 {
+    padding-left: 10px;
+}

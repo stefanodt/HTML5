@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/fonts%20en%20formulieren.css">
+</head>
+<body>
+<navbar><h1>Formulier</h1></navbar>
+<div id="deel1">
+    <div class="text">
+        <div>
+            <label class="text2" for="voornaam">Voornaam</label>
+            <input class="text1b" type="text" name="voornaam">
+        </div>
+    </div>
+    <div class="text">
+        <div>
+            <label class="text2" for="tussenvoegel">Tussenvoegel</label>
+            <input class="text1b" type="text" name="tussenvoegel">
+        </div>
+    </div>
+    <div class="text">
+        <div>
+            <label class="text2" for="achternaam">Achternaam</label>
+            <input class="text1b" type="text" name="achternaam">
+        </div>
+    </div>
+    <div>
+        <div>
+            <label class="geslacht" for="geslacht">Geslacht</label>
+            <div class="radio">
+                &nbsp;man
+                <input type="radio" name="geslacht" value="man">
+                &nbsp;vrouw
+                <input type="radio" name="geslacht" value="vrouw">
+            </div>
+        </div>
+    </div>
+    <div>
+        <label class="kleurogen1b" for="kleurogen">Kleurogen</label>
+        <div class="kleurogen">
+
+            <select class="options" name="kleurogen">
+                <option>groen</option>
+                <option>blauw</option>
+                <option>bruin</option>
+            </select>
+
+        </div>
+    </div>
+    <div>
+        <label class="geboortedatum2" for="geboortedatum">geboortedatum</label>
+        <input class="date" type="date" name="geboortedatum">
+    </div>
+    <div>
+        <label class="textarea2" for="omschrijving">Omschrijving</label>
+        <textarea class="textarea" rows="7" cols="40" name="omschrijving"></textarea>
+    </div>
+</div>
+
+<div id="deel2">
+    <div class="checkbox2">
+        <label for="Lekker eten" id="lekker eten:"> </label>
+    </div>
+
+    <div class="checkboxlb">
+        <label for="lekker-eten" id="lekker-eten">Lekker eten:</label>
+    </div>
+    <div class="checkbox">
+        <input type="checkbox" name="lekker-eten" value="Sperziebonen">
+        <span class="checkbox">Sperziebonen</span><br>
+        <input type="checkbox" name="lekker-eten" value="Aardappelen">
+        <span class="checkbox">Aardappelen</span><br>
+        <input type="checkbox" name="lekker-eten" value="Hamburger">
+        <span class="checkbox">Hamburger</span>
+    </div>
+</div>
+<div class="buttons">
+    <input type="button" name="button" id="button" value="Annuleer">
+    <input type="submit" name="submit" id="submit" value="Ok">
+</div>
+
+</body>
+</html>
